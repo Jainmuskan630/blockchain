@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Popup Example</title>
+    <link rel="stylesheet" href="css/popup.css">
+    
+    
+</head>
+
+<body>
+    <main>
+
+
+        <div class="container">
+
+            <button class="click" onclick="openPopup()">COMPLETE SHIPMENT</button>
+            <button class="click" onclick="changestatus()">CHANGE STATUS</button>
+            <button class="click" onclick="openpopup2()">START SHIPMENT </button>
+        </div>
+
+        
+        <div id="myPopup" class="popup">
+            <h3>Complete shipment</h3>
+            <p>Enter product code</p>
+
+            <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+            <!-- <button onclick="checknumber()"></button> -->
+            <button onclick="checkNumber()">Get Details</button>
+            <button onclick="closePopup()">Close</button>
+            <div id="myPopup" class="popup">
+                <h3>GET  <br>  SHIPMENT</h3>
+                <p></p>
+
+                <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+                <!-- <button onclick="checknumber()"></button> -->
+                <button onclick="checkNumber()">Get Details</button>
+                <button onclick="closePopup()">Close</button>
+
+
+
+
+            </div>
+            <div id="myPopup1" class="popup">
+                <h3>Product Tracking Details</h3>
+                <p>Enter product code</p>
+
+                <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+                
+                <button onclick="checkNumber()">Get Details</button>
+                <button onclick="closePopup()">Close</button>
+
+            </div>
+            <!-- <div id="myPopup2" class="popup">
+                <h3>Product Tracking Details</h3>
+                <p>Enter </p>
+
+                <input type="number" id="number" name="number" placeholder="Enter a number"><br>
+                
+                <button onclick="checkNumber()">Get Details</button>
+                <button onclick="closePopup()">Close</button>
+
+            </div> -->
+    </main>
+
+    <script src="js/popup.js"></script>
+     
+     </body> 
+     </html>  
+        

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(pics/blockchain.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+
+    padding: 0px 53px 32px 27px;
+    color: white;
+}
+.head{
+    font-family: Arial, sans-serif;
+    padding: 102px 0px 22px 29px;
+    color: white;
+
+}
+button{
+    padding: 3px 45px;
+margin: 2px 27px;
+height: 34px;
+color: blue;
+}
